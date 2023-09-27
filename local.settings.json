@@ -1,0 +1,16 @@
+﻿{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        //"AzureSignalRConnectionString": "Endpoint=https://signalrfunctionapp.service.signalr.net;AccessKey=YmFT0jlcM8w4a+MwTOyLAkIOgL0JpIeC9uN1IFAm+PY=;Version=1.0;",
+        "AzureSignalRConnectionString": "Endpoint=https://signalrfunctionapp.service.signalr.net;AccessKey=YmFT0jlcM8w4a+MwTOyLAkIOgL0JpIeC9uN1IFAm+PY=;ClientEndpoint=https://signalrfunctionapp.service.signalr.net;Version=1.0;",
+        "DefaultConnection": "Server=tcp:parkingsql.database.windows.net,1433;Initial Catalog=ParkingDB;Persist Security Info=False;User ID=sqladmin@parkingsql;Password=Test1!Pass2@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    },
+    "Host": {
+        //"Localhttpport": 7113,
+        "Cors": "https://iwparking.vercel.app",
+        "Corscredentials": false
+    }
+}

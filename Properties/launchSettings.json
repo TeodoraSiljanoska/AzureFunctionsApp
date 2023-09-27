@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "FunctionApp1234567890": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7113"
+    },
+    "Profile 1": {
+      "commandName": "Executable"
+    },
+    "Profile 2": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7114",
+      "remoteDebugEnabled": true
+    }
+  }
+}
